@@ -11,16 +11,6 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120322013520) do
-
-  create_table "teams", :force => true do |t|
-    t.string   "name"
-    t.text     "description"
-    t.string   "member_1"
-    t.string   "member_2"
-    t.string   "member_3"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
-  end
+ActiveRecord::Schema.define(:version => 0) do
 
 end

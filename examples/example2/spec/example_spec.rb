@@ -17,8 +17,6 @@ describe "Example" do
       Example.fibonacci(5).should == 5
     end
 
-    it "raises an error for non-integers" do
-      expect { Example.fibonacci(1.5) }.to raise_error
-    end
+    it "raises an error for non-integers"
   end
 end
